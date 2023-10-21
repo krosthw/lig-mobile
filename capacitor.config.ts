@@ -5,8 +5,9 @@ const config: CapacitorConfig = {
   appName: 'lig-mobile',
   webDir: 'out',
   server: {
-    androidScheme: 'https'
-  }
+    url: 'http://192.168.43.29:3000',
+    cleartext: true
+  },
 };
 
 export default config;
